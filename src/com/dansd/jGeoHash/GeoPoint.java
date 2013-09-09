@@ -1,12 +1,11 @@
 package com.dansd.jGeoHash;
 
 public class GeoPoint {
-	double pointLat;
-	double pointLon;
-	float normLat;
-	float normLon;
+	private double pointLat;
+	private double pointLon;
     private String theHash;
-	int precision;
+	private int precision;
+
 	public GeoPoint(double lat,double lon, int prec){
 		if(lat>90 || lat<-90){
 			throw new Error("Latitude must be between -90 and 90 (got "+lat+" instead)");
@@ -19,10 +18,22 @@ public class GeoPoint {
 		precision = prec;
 		hash();
 	}
+
+
     public String getHash() {
         return theHash;
     }
-	private void hash(){
+
+    public int getPrecision() {
+        return precision;
+    }
+
+    public void setPrecision(int precision) {
+        this.precision = precision;
+        hash();
+    }
+
+    private void hash(){
 		int i = 0;
 		float northLimit = 90;
 		float eastLimit = 180;
