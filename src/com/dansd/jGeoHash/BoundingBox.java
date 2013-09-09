@@ -50,49 +50,49 @@ public class BoundingBox {
 		int precision = 12;
 		try {
 			String NORTH = new GeoPoint(n + getHeight() / 2, (e + w) / 2,
-					precision).theHash;
+					precision).getHash();
 			theList.add(NORTH);
 		} catch (Error e) {
 		}
 		try {
 			String SOUTH = new GeoPoint(s - getHeight() / 2, (e + w) / 2,
-					precision).theHash;
+					precision).getHash();
 			theList.add(SOUTH);
 		} catch (Error e) {
 		}
 		try {
 			String NORTHEAST = new GeoPoint(n + getHeight() / 2,
-					(e + getWidth()) / 2, precision).theHash;
+					(e + getWidth()) / 2, precision).getHash();
 			theList.add(NORTHEAST);
 		} catch (Error e) {
 		}
 		try {
 			String SOUTHEAST = new GeoPoint(s - getHeight() / 2,
-					(e - getWidth()) / 2, precision).theHash;
+					(e - getWidth()) / 2, precision).getHash();
 			theList.add(SOUTHEAST);
 		} catch (Error e) {
 		}
 		try {
 			String NORTHWEST = new GeoPoint(n + getHeight() / 2,
-					(w - getWidth()) / 2, precision).theHash;
+					(w - getWidth()) / 2, precision).getHash();
 			theList.add(NORTHWEST);
 		} catch (Error e) {
 		}
 		try {
 			String SOUTHWEST = new GeoPoint(s - getHeight() / 2,
-					(w - getWidth()) / 2, precision).theHash;
+					(w - getWidth()) / 2, precision).getHash();
 			theList.add(SOUTHWEST);
 		} catch (Error e) {
 		}
 		try {
 			String EAST = new GeoPoint(n + s / 2, e + getWidth() / 2,
-					precision).theHash;
+					precision).getHash();
 			theList.add(EAST);
 		} catch (Error e) {
 		}
 		try {
 			String WEST = new GeoPoint(n + s / 2, w - getWidth() / 2,
-					precision).theHash;
+					precision).getHash();
 			theList.add(WEST);
 		} catch (Error e) {
 		}
