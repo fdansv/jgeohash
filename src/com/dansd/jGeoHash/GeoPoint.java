@@ -5,7 +5,7 @@ public class GeoPoint {
 	double pointLon;
 	float normLat;
 	float normLon;
-	public String theHash;
+    private String theHash;
 	int precision;
 	public GeoPoint(double lat,double lon, int prec){
 		if(lat>90 || lat<-90){
@@ -19,7 +19,10 @@ public class GeoPoint {
 		precision = prec;
 		hash();
 	}
-	public void hash(){
+    public String getHash() {
+        return theHash;
+    }
+	private void hash(){
 		int i = 0;
 		float northLimit = 90;
 		float eastLimit = 180;
@@ -49,5 +52,6 @@ public class GeoPoint {
 		}
 		theHash = hashString;
 	}
+
 	
 }
