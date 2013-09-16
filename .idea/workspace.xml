@@ -2,10 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12faa286-eb41-4799-81f7-1d249b55691e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" afterPath="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jgeohash.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002341205" ignored="false" />
+    <file path="/GeoPoint.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378730735943" ignored="false" />
+    <file path="/GeoHashTests.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378740723139" ignored="false" />
+    <file path="/fragment.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378829955868" ignored="false" />
+    <file path="/asdasd.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378744966481" ignored="false" />
+    <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379004866789" ignored="false" />
+    <file path="/MainNews.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379004862298" ignored="false" />
+    <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/res/layout/activity_main.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379000891069" ignored="false" />
+    <file path="/activity_main.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378906455866" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy405169587347253578tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378906536236" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy1836671037715651676tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378917679866" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy5348186110816514336tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378917774488" ignored="false" />
+    <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/res/layout/newsRow.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378994348068" ignored="false" />
+    <file path="/newsRow.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379001972727" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy2830114113202175578tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378995422597" ignored="false" />
+    <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/res/layout/newsrow.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379001972727" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy2223578209535376715tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378996477209" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy1501984112052019082tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378996983607" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy6967430106616274123tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378997144404" ignored="false" />
+    <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/res/values/colors.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378997453931" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy3281751113866199667tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378997481862" ignored="false" />
+    <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002112619" ignored="false" />
+    <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/gen/com/dansd/PrettyHacker/R.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002115225" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy7718841300317442193tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378997966198" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy4659698248918322397tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378998026023" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy4507664371157082296tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378998510244" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy5095034860973145220tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378999299708" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy3267903612028461282tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378999321471" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy7843382153383368894tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378999746039" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy6410131204109512177tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378999916701" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy2785042007517744297tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379000904943" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy3951788240602381860tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379001806540" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy622993661974449402tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379001977505" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy4141562363357799386tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002088132" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy7394745925561534993tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002124353" ignored="false" />
+    <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/res/layout/site.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002343536" ignored="false" />
+    <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy6617154618111506170tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002722422" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +111,17 @@
       <file leaf-file-name="BoundingBox.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2074">
-              <folding>
-                <element signature="e#1010#1018#0" expanded="false" />
-              </folding>
+            <state line="13" column="20" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeoPoint.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoPoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="4" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,7 +129,7 @@
       <file leaf-file-name="GeoHashTests.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.15151516" vertical-offset="0" max-vertical-offset="561">
+            <state line="10" column="11" selection-start="348" selection-end="348" vertical-scroll-proportion="0.3836317">
               <folding />
             </state>
           </provider>
@@ -107,13 +153,16 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoPoint.java" />
+        <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java" />
+        <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/asdasd.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1" />
+    <option name="y" value="22" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
@@ -143,7 +192,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,24 +231,76 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration default="false" name="mediaDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.dansd.jGeoHash.mediaDemo" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jgeohash" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -216,16 +317,16 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="com.dansd.jGeoHash.GeoHash" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
+      <module name="jgeohash" />
       <envs />
       <method />
     </configuration>
@@ -249,16 +350,31 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
-    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.dansd.jGeoHash.GeoHashTests" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jgeohash" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
     </configuration>
-    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.mediaDemo" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.mediaDemo" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -274,30 +390,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="1" y="22" width="1378" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301282" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -360,19 +478,42 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="2074">
-          <folding>
-            <element signature="e#1010#1018#0" expanded="false" />
-          </folding>
+        <state line="4" column="13" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.15151516" vertical-offset="0" max-vertical-offset="561">
+        <state line="5" column="5" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="20" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="348" selection-end="348" vertical-scroll-proportion="0.3836317">
           <folding />
         </state>
       </provider>
