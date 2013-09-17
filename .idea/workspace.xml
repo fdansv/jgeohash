@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="12faa286-eb41-4799-81f7-1d249b55691e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java" afterPath="$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jgeohash.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +44,7 @@
     <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy7394745925561534993tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002124353" ignored="false" />
     <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/res/layout/site.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002343536" ignored="false" />
     <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy6617154618111506170tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002722422" ignored="false" />
-    <file path="/BoundingBox.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379437971703" ignored="false" />
+    <file path="/BoundingBox.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379438225646" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,7 @@
       <file leaf-file-name="BoundingBox.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="33" selection-start="531" selection-end="531" vertical-scroll-proportion="0.6020067">
+            <state line="24" column="44" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6020067">
               <folding />
             </state>
           </provider>
@@ -533,7 +534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="531" selection-end="531" vertical-scroll-proportion="0.6020067">
+        <state line="24" column="44" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6020067">
           <folding />
         </state>
       </provider>

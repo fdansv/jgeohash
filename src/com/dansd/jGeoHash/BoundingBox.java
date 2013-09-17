@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class BoundingBox {
 	double[] coords;
-	public double n,s,e,w;
+	public double n=90,s=-90,e=-180,w=180;
 	String hash;
     GeoPoint geoPoint;
 
@@ -13,19 +13,18 @@ public class BoundingBox {
 		n=north;
 		s=south;
 		e=east;
-		w=west;		
+		w=west;
+        calculatePrecision();
 	}
-	public BoundingBox(String theHash){ 
-
+	public BoundingBox(String theHash){
 		hash=theHash;
-		n=90;
-		s=-90;
-		w=-180;
-		e=180;
 		fromHash();
+        calculatePrecision();
 	}
     public BoundingBox(GeoPoint geoPoint){
+        this(geoPoint.getHash());
         this.geoPoint = geoPoint;
+
     }
 	public void fromHash(){
 		String hashCopy = hash;
@@ -118,4 +117,8 @@ public class BoundingBox {
 		}
 		return height;
 	}
+
+    private void calculatePrecision(){
+        //To do
+    }
 }
