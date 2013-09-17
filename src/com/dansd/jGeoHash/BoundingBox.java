@@ -6,6 +6,8 @@ public class BoundingBox {
 	double[] coords;
 	public double n,s,e,w;
 	String hash;
+    GeoPoint geoPoint;
+
 	public BoundingBox(double north, double south, double east, double west){
 		//to do, build an approximate binary hash from a given bb
 		n=north;
@@ -22,6 +24,9 @@ public class BoundingBox {
 		e=180;
 		fromHash();
 	}
+    public BoundingBox(GeoPoint geoPoint){
+        this.geoPoint = geoPoint;
+    }
 	public void fromHash(){
 		String hashCopy = hash;
 		while(hashCopy.equals("")==false){
