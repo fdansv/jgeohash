@@ -6,5 +6,6 @@ public class GeoHashTests {
         System.out.println(point.getHash());
         BoundingBox bb = new BoundingBox(point.getHash());
         System.out.println(bb.w + " " + bb.e + " " + bb.n + " " + bb.s);
+        System.out.println(bb.precision);
     }
 }

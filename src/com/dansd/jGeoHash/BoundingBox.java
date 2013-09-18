@@ -7,6 +7,7 @@ public class BoundingBox {
 	public double n=90,s=-90,e=-180,w=180;
 	String hash;
     GeoPoint geoPoint;
+    int precision;
 
 	public BoundingBox(double north, double south, double east, double west){
 		//to do, build an approximate binary hash from a given bb
@@ -119,6 +120,6 @@ public class BoundingBox {
 	}
 
     private void calculatePrecision(){
-        //To do
+        precision = hash.length()/2;
     }
 }

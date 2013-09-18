@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="12faa286-eb41-4799-81f7-1d249b55691e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java" afterPath="$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" afterPath="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" />
     </list>
     <ignored path="jgeohash.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379437851035" ignored="false" />
     <file path="/GeoPoint.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378730735943" ignored="false" />
-    <file path="/GeoHashTests.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378740723139" ignored="false" />
+    <file path="/GeoHashTests.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379511957319" ignored="false" />
     <file path="/fragment.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378829955868" ignored="false" />
     <file path="/asdasd.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378744966481" ignored="false" />
     <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379004866789" ignored="false" />
@@ -44,7 +44,14 @@
     <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy7394745925561534993tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002124353" ignored="false" />
     <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/res/layout/site.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002343536" ignored="false" />
     <file path="/private/var/folders/h6/h6AYoFvsGku8jVUefq+mPU+++TU/-Tmp-/android_manifest_copy6617154618111506170tmp/AndroidManifest.xml" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379002722422" ignored="false" />
-    <file path="/BoundingBox.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379438225646" ignored="false" />
+    <file path="/BoundingBox.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379511912518" ignored="false" />
+    <file path="$PROJECT_DIR$/../processing/src/uk/co/images/coketruck/Button.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379504378826" ignored="false" />
+    <file path="$PROJECT_DIR$/../processing/src/uk/co/images/coketruck/coketruck.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379506182419" ignored="false" />
+    <file path="/coketruck.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379506179715" ignored="false" />
+    <file path="/Button.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379504262701" ignored="false" />
+    <file path="$PROJECT_DIR$/../processing/src/uk/co/images/coketruck/CokeCapture.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379504099208" ignored="false" />
+    <file path="/CokeCapture.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379503929114" ignored="false" />
+    <file path="$PROJECT_DIR$/../processing/src/com/dansd/FilterPImage/FilterPImage.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379510599255" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,10 +115,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BoundingBox.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BoundingBox.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6020067">
+            <state line="122" column="40" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,16 +127,16 @@
       <file leaf-file-name="GeoPoint.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="4" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+            <state line="22" column="38" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeoHashTests.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="GeoHashTests.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="11" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
+            <state line="8" column="47" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30690536">
               <folding />
             </state>
           </provider>
@@ -155,8 +162,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoPoint.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/asdasd.java" />
-        <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java" />
+        <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" />
       </list>
     </option>
   </component>
@@ -401,18 +408,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301282" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3301282" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -518,23 +525,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+        <state line="22" column="38" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6020067">
+        <state line="122" column="40" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="47" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30690536">
           <folding />
         </state>
       </provider>
