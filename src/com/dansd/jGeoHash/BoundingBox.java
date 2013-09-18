@@ -52,7 +52,6 @@ public class BoundingBox {
 	public ArrayList<String> surroundingBoxesList() {
 
 		ArrayList<String> theList = new ArrayList<String>();
-		int precision = 12;
 		try {
 			String NORTH = new GeoPoint(n + getHeight() / 2, (e + w) / 2,
 					precision).getHash();
