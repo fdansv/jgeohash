@@ -104,6 +104,9 @@ public class BoundingBox {
 		theList.add(hash);
 		return theList;
 	}
+    public int getPrecision() {
+        return precision;
+    }
 	public double getWidth(){
 		double width = w-e;
 		if(width<0){
@@ -122,4 +125,6 @@ public class BoundingBox {
     private void calculatePrecision(){
         precision = hash.length()/2;
     }
+
+
 }

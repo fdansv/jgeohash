@@ -9,7 +9,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379437851035" ignored="false" />
     <file path="/GeoPoint.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378730735943" ignored="false" />
-    <file path="/GeoHashTests.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379511957319" ignored="false" />
+    <file path="/GeoHashTests.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379512025158" ignored="false" />
     <file path="/fragment.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378829955868" ignored="false" />
     <file path="/asdasd.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1378744966481" ignored="false" />
     <file path="$PROJECT_DIR$/../prettyhacker/PrettyHacker/src/main/java/com/dansd/PrettyHacker/MainNews.java" changelist="12faa286-eb41-4799-81f7-1d249b55691e" time="1379004866789" ignored="false" />
@@ -118,7 +118,7 @@
       <file leaf-file-name="BoundingBox.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="40" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0">
+            <state line="106" column="31" selection-start="2564" selection-end="2564" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -136,7 +136,7 @@
       <file leaf-file-name="GeoHashTests.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="47" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30690536">
+            <state line="8" column="41" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30690536">
               <folding />
             </state>
           </provider>
@@ -162,8 +162,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoPoint.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/asdasd.java" />
-        <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java" />
         <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java" />
+        <option value="$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java" />
       </list>
     </option>
   </component>
@@ -414,7 +414,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67147434" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32852563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -534,14 +534,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/BoundingBox.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="40" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0">
+        <state line="106" column="31" selection-start="2564" selection-end="2564" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dansd/jGeoHash/GeoHashTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30690536">
+        <state line="8" column="41" selection-start="381" selection-end="381" vertical-scroll-proportion="0.30690536">
           <folding />
         </state>
       </provider>
