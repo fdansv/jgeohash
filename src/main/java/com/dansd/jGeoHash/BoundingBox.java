@@ -1,7 +1,5 @@
 package com.dansd.jGeoHash;
 
-import java.util.ArrayList;
-
 public class BoundingBox {
 	private double[] coords;
 	private double n=90,s=-90,e=-180,w=180;
@@ -9,22 +7,21 @@ public class BoundingBox {
     private GeoPoint geoPoint;
     private int precision;
 
-	public BoundingBox(double north, double south, double east, double west){
-		//to do, build an approximate binary hash from a given bb
-		n=north;
-		s=south;
-		e=east;
-		w=west;
-        calculatePrecision();
-	}
+
 	public BoundingBox(String theHash){
 		hash=theHash;
 		fromHash();
         calculatePrecision();
 	}
-	public void fromHash(){
+
+    @Override
+    public String toString(){
+        return String.format("BoundingBox, N: %s, S: %s, E: %s, W: %s, %s", n, s, e, w, precision);
+    }
+
+	private void fromHash(){
 		String hashCopy = hash;
-		while(hashCopy.equals("")==false){
+		while(!hashCopy.equals("")){
 			//System.out.println(n +" "+s+" "+e+" "+w);
 			if(hashCopy.substring(0,1).equals("0")){
 				e=(e+w)/2;
