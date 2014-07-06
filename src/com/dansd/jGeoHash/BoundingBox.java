@@ -3,11 +3,11 @@ package com.dansd.jGeoHash;
 import java.util.ArrayList;
 
 public class BoundingBox {
-	double[] coords;
-	public double n=90,s=-90,e=-180,w=180;
-	String hash;
-    GeoPoint geoPoint;
-    int precision;
+	private double[] coords;
+	private double n=90,s=-90,e=-180,w=180;
+	private String hash;
+    private GeoPoint geoPoint;
+    private int precision;
 
 	public BoundingBox(double north, double south, double east, double west){
 		//to do, build an approximate binary hash from a given bb
@@ -22,11 +22,6 @@ public class BoundingBox {
 		fromHash();
         calculatePrecision();
 	}
-    public BoundingBox(GeoPoint geoPoint){
-        this(geoPoint.getHash());
-        this.geoPoint = geoPoint;
-
-    }
 	public void fromHash(){
 		String hashCopy = hash;
 		while(hashCopy.equals("")==false){
