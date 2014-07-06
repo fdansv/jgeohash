@@ -3,8 +3,6 @@ package com.dansd.jGeoHash;
 public class GeoPoint {
 	private double pointLat;
 	private double pointLon;
-    private String theHash;
-	private int precision;
 
 	public GeoPoint(double lat,double lon, int prec){
 		if(lat>90 || lat<-90){
@@ -15,25 +13,10 @@ public class GeoPoint {
 		}
 		pointLat= lat;
 		pointLon= lon;
-		precision = prec;
-		hash();
 	}
 
 
-    public String getHash() {
-        return theHash;
-    }
-
-    public int getPrecision() {
-        return precision;
-    }
-
-    public void setPrecision(int precision) {
-        this.precision = precision;
-        hash();
-    }
-
-    private void hash(){
+    private BoundingBox getHash(int precision){
 		int i = 0;
 		float northLimit = 90;
 		float eastLimit = 180;
@@ -61,7 +44,7 @@ public class GeoPoint {
 			}
 			i++;
 		}
-		theHash = hashString;
+        return new BoundingBox(hashString);
 	}
 
 	
