@@ -101,6 +101,7 @@ public class BoundingBox {
     public int getPrecision() {
         return precision;
     }
+
 	public double getWidth(){
 		double width = w-e;
 		if(width<0){
@@ -116,9 +117,28 @@ public class BoundingBox {
 		return height;
 	}
 
+    public String getHash() {
+        return hash;
+    }
+
+    public double getNorth() {
+        return n;
+    }
+
+    public double getSouth() {
+        return s;
+    }
+
+    public double getEast() {
+        return e;
+    }
+
+    public double getWest() {
+        return w;
+    }
+
     private void calculatePrecision(){
         precision = hash.length()/2;
     }
-
 
 }

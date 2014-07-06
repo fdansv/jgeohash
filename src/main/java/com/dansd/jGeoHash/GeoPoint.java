@@ -16,7 +16,7 @@ public class GeoPoint {
 	}
 
 
-    private BoundingBox getHash(int precision){
+    private BoundingBox getHashedBox(int precision){
 		int i = 0;
 		float northLimit = 90;
 		float eastLimit = 180;
