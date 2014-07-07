@@ -4,7 +4,7 @@ import java.math.BigInteger;
 
 public class BoundingBox {
 	private double[] coords;
-	private double n=90,s=-90,e=-180,w=180;
+	private double n=90,s=-90,e=180,w=-180;
 	private String hash;
     private GeoPoint geoPoint;
     private int precision;
