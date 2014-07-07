@@ -24,4 +24,10 @@ public class BoundingBoxTest {
         assert bb.getEast()==180;
         assert bb.getWest()==-180;
     }
+    @Test(expected=Error.class)
+    public void testLatLonBounds() throws Exception {
+        BoundingBox bb = new GeoPoint(100,200).getHashedBox(10);
+        bb = new GeoPoint(100,50).getHashedBox(10);
+        bb = new GeoPoint(50,200).getHashedBox(10);
+    }
 }
