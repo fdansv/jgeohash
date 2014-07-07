@@ -1,5 +1,7 @@
 package com.dansd.jGeoHash;
 
+import java.math.BigInteger;
+
 public class BoundingBox {
 	private double[] coords;
 	private double n=90,s=-90,e=-180,w=180;
@@ -16,7 +18,7 @@ public class BoundingBox {
 
     @Override
     public String toString(){
-        return String.format("BoundingBox, N: %s, S: %s, E: %s, W: %s, %s", n, s, e, w, precision);
+        return String.format("BoundingBox, N: %s, S: %s, E: %s, W: %s, %s, %s", n, s, e, w, precision, getHexHash());
     }
 
 	private void fromHash(){
@@ -66,6 +68,9 @@ public class BoundingBox {
 
     public String getHash() {
         return hash;
+    }
+    public String getHexHash() {
+        return new BigInteger(hash, 2).toString(16);
     }
 
     public double getNorth() {
