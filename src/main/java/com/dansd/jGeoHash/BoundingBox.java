@@ -22,7 +22,7 @@ public class BoundingBox {
     }
 
 	private void fromHash(){
-		String hashCopy = hash;
+		String hashCopy = hash.substring(1); // We remove the control 1
 		while(!hashCopy.equals("")){
 			//System.out.println(n +" "+s+" "+e+" "+w);
 			if(hashCopy.substring(0,1).equals("0")){
@@ -44,7 +44,7 @@ public class BoundingBox {
 	}
 
     private void calculatePrecision(){
-        precision = hash.length()/2;
+        precision = (hash.length()-1)/2;
     }
 
     public int getPrecision() {

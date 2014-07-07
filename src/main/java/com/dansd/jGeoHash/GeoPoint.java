@@ -16,13 +16,13 @@ public class GeoPoint {
 	}
 
 
-    private BoundingBox getHashedBox(int precision){
+    public BoundingBox getHashedBox(int precision){
 		int i = 0;
 		float northLimit = 90;
 		float eastLimit = 180;
 		float southLimit = -90;
 		float westLimit = -180;
-		String hashString = "";
+		String hashString = "1";
 		while(i<precision){
 			if (pointLon<(eastLimit+westLimit)/2){
 				
