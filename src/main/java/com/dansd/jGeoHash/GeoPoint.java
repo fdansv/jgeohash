@@ -4,7 +4,7 @@ public class GeoPoint {
 	private double pointLat;
 	private double pointLon;
 
-	public GeoPoint(double lat,double lon, int prec){
+	public GeoPoint(double lat,double lon){
 		if(lat>90 || lat<-90){
 			throw new Error("Latitude must be between -90 and 90 (got "+lat+" instead)");
 		}
