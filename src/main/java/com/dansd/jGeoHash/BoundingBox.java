@@ -24,19 +24,16 @@ public class BoundingBox {
 	private void fromHash(){
 		String hashCopy = hash.substring(1); // We remove the control 1
 		while(!hashCopy.equals("")){
-			//System.out.println(n +" "+s+" "+e+" "+w);
 			if(hashCopy.substring(0,1).equals("0")){
 				e=(e+w)/2;
 			}
 			else{
-				//System.out.println(hashCopy.substring(0,1));
 				w=(e+w)/2;
 			}
 			if(hashCopy.substring(1,2).equals("0")){
 				s=(n+s)/2;
 			}
 			else{
-				//System.out.println(hashCopy.substring(0,1));
 				n=(n+s)/2;
 			}
 			hashCopy=hashCopy.substring(2,hashCopy.length());
@@ -73,6 +70,7 @@ public class BoundingBox {
         return new BigInteger(hash, 2).toString(16);
     }
 
+
     public double getNorth() {
         return n;
     }
@@ -89,6 +87,45 @@ public class BoundingBox {
         return w;
     }
 
-
+    public void printGeoJSON(){
+        String geoJSON = String.format("{\n" +
+                "  \"type\": \"FeatureCollection\",\n" +
+                "  \"features\": [\n" +
+                "    {\n" +
+                "      \"type\": \"Feature\",\n" +
+                "      \"properties\": {},\n" +
+                "      \"geometry\": {\n" +
+                "        \"type\": \"Polygon\",\n" +
+                "        \"coordinates\": [\n" +
+                "          [\n" +
+                "            [\n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ],\n" +
+                "            [\n" +
+                "             \n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ],\n" +
+                "            [\n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ],\n" +
+                "            [\n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ],\n" +
+                "            [\n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ]\n" +
+                "          ]\n" +
+                "        ]\n" +
+                "      }\n" +
+                "    }\n" +
+                "  ]\n" +
+                "}",w,n,e,n,e,s,w,s,w,n);
+        System.out.println(geoJSON);
+    }
 
 }
