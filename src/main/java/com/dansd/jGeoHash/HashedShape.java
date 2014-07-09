@@ -1,7 +1,8 @@
 package com.dansd.jGeoHash;
 
-/**
- * Created by franciscodans on 09/07/2014.
- */
-public class HashedShape {
+import java.util.ArrayList;
+
+
+public class HashedShape extends ArrayList<BoundingBox>{
+
 }
