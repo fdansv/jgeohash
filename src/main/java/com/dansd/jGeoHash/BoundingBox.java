@@ -87,6 +87,45 @@ public class BoundingBox {
         return w;
     }
 
-
+    public void printGeoJSON(){
+        String geoJSON = String.format("{\n" +
+                "  \"type\": \"FeatureCollection\",\n" +
+                "  \"features\": [\n" +
+                "    {\n" +
+                "      \"type\": \"Feature\",\n" +
+                "      \"properties\": {},\n" +
+                "      \"geometry\": {\n" +
+                "        \"type\": \"Polygon\",\n" +
+                "        \"coordinates\": [\n" +
+                "          [\n" +
+                "            [\n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ],\n" +
+                "            [\n" +
+                "             \n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ],\n" +
+                "            [\n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ],\n" +
+                "            [\n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ],\n" +
+                "            [\n" +
+                "              %s,\n" +
+                "              %s\n" +
+                "            ]\n" +
+                "          ]\n" +
+                "        ]\n" +
+                "      }\n" +
+                "    }\n" +
+                "  ]\n" +
+                "}",w,n,e,n,e,s,w,s,w,n);
+        System.out.println(geoJSON);
+    }
 
 }
