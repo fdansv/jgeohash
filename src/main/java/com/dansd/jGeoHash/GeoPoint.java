@@ -50,5 +50,16 @@ public class GeoPoint {
         return new BoundingBox(hashString);
 	}
 
-	
+    public String toString(){
+        return pointLat +", "+pointLon;
+    }
+
+
+    public double getLatitude() {
+        return pointLat;
+    }
+
+    public double getLongitude() {
+        return pointLon;
+    }
 }
