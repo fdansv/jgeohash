@@ -17,6 +17,9 @@ public class GeoPoint {
 
 
     public BoundingBox getHashedBox(int precision){
+        if(precision>30){
+            throw new IllegalArgumentException("You most certainly don't need more than precision 30");
+        }
 		int i = 0;
 		float northLimit = 90;
 		float eastLimit = 180;
