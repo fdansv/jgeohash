@@ -36,10 +36,10 @@ public class Polygon extends ArrayList<GeoPoint>
             this.northernmostLat = point.getLatitude();
         }
 
-        if(point.getLongitude()<this.easternmostLon){
+        if(point.getLongitude()>this.easternmostLon){
             this.easternmostLon = point.getLongitude();
         }
-        else if(point.getLatitude()>this.northernmostLat){
+        else if(point.getLongitude()<this.westernmostLon){
             this.westernmostLon = point.getLongitude();
         }
     }
