@@ -6,6 +6,7 @@ apply plugin: 'java'
 
 dependencies {
     testCompile 'junit:junit:4.10'
+    compile 'org.codeartisans:org.json:20131017'
 }
 
 buildscript {
