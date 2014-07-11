@@ -22,9 +22,13 @@ public class PolygonTest {
     @Test
     public void testJSON(){
         Polygon polygon = new Polygon(object);
-        for(GeoPoint point: polygon){
-            System.out.println(point);
-        }
+        polygon.printGeoJSON();
+    }
+
+    @Test
+    public void checkBoundingBox() throws Exception{
+        Polygon polygon = new Polygon(object);
+        assert polygon.getNWCorner().getLongitude()<polygon.getSECorner().getLongitude();
     }
 
     private String file2String(String path){
