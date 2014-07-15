@@ -32,6 +32,7 @@ public class HashedShapeTest {
 
     }
 
+
     private String file2String(String path){
         byte[] encoded = new byte[0];
         try {
