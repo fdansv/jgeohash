@@ -4,14 +4,27 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 
 public class Polygon extends ArrayList<GeoPoint>
 {
-    double southernmostLat = 90, northernmostLat = -90, westernmostLon = 180, easternmostLon = -180;
+    private java.awt.Polygon primitivePolygon;
+
+    private double southernmostLat = 90, northernmostLat = -90, westernmostLon = 180, easternmostLon = -180;
 
     public Polygon(JSONObject originObject){
         getCoordinates(originObject);
+        genPolygon();
+    }
+
+    public HashedShape getHashedShape(int precision){
+        return new HashedShape(this, precision);
+    }
+
+    public boolean isPointInside(GeoPoint geoPoint){
+        return primitivePolygon.contains(geoPoint.getLongitude()*1000, geoPoint.getLatitude()*1000);
     }
 
 
@@ -27,7 +40,14 @@ public class Polygon extends ArrayList<GeoPoint>
             checkMaxMin(thisPoint);
             this.add(thisPoint);
         }
+
+
     }
+
+    private void genPolygon() {
+        primitivePolygon = new java.awt.Polygon(getXCoords(), getYCoords(), this.size());
+    }
+
     private void checkMaxMin(GeoPoint point){
         if(point.getLatitude()<this.southernmostLat){
             this.southernmostLat = point.getLatitude();
@@ -85,6 +105,21 @@ public class Polygon extends ArrayList<GeoPoint>
         System.out.println(geoJSON);
     }
 
+    protected int[] getXCoords(){
+        int[] xes = new int[this.size()];
+        for (int i = 0; i< this.size(); i++){
+            xes[i] = ((int) (this.get(i).getLongitude()*1000));
+        }
+        return xes;
+    }
+    protected int[] getYCoords(){
+        int[] yes = new int[this.size()];
+        for (int i = 0; i< this.size(); i++){
+            yes[i] = ((int) (this.get(i).getLatitude()*1000));
+        }
+        return yes;
+    }
+
     public GeoPoint getNWCorner(){
         return new GeoPoint(northernmostLat, westernmostLon);
     }
@@ -93,4 +128,9 @@ public class Polygon extends ArrayList<GeoPoint>
         return new GeoPoint(southernmostLat, easternmostLon);
     }
 
+    public GeoPoint getNECorner() { return new GeoPoint(northernmostLat, easternmostLon); }
+
+    public GeoPoint getSWCorner() {
+        return new GeoPoint(southernmostLat, westernmostLon);
+    }
 }
