@@ -22,13 +22,25 @@ public class PolygonTest {
     @Test
     public void testJSON(){
         Polygon polygon = new Polygon(object);
-        polygon.printGeoJSON();
+        //polygon.printGeoJSON();
     }
 
     @Test
     public void checkBoundingBox() throws Exception{
         Polygon polygon = new Polygon(object);
         assert polygon.getNWCorner().getLongitude()<polygon.getSECorner().getLongitude();
+    }
+
+    @Test
+    public void checkContains(){
+        Polygon polygon = new Polygon(object);
+        assert polygon.isPointInside(new GeoPoint(51.497, -0.109));
+        assert polygon.isPointInside(new GeoPoint(51.74560546875, -0.5712890625));
+        assert !polygon.isPointInside(new GeoPoint(20, 5));
+    }
+    @Test
+    public void displayHashedShapeJSON(){
+        Polygon polygon = new Polygon(object);
     }
 
     private String file2String(String path){
