@@ -16,14 +16,6 @@ public class HashedShape extends ArrayList<BoundingBox>{
         genBoundingMesh();
     }
 
-    public boolean contains(HashedShape subHashedShape){
-        return this.containsAll(subHashedShape);
-    }
-
-    public boolean contains(BoundingBox boundingBox){
-        return super.contains(boundingBox);
-    }
-
     private void genBoundingMesh(){
         BoundingBox nwBox = originPolygon.getNWCorner().getHashedBox(precision);
         double boxWidth = nwBox.getWidth();
@@ -47,6 +39,14 @@ public class HashedShape extends ArrayList<BoundingBox>{
             }
         }
 
+    }
+
+    public boolean contains(HashedShape subHashedShape){
+        return this.containsAll(subHashedShape);
+    }
+
+    public boolean contains(BoundingBox boundingBox){
+        return super.contains(boundingBox);
     }
 
 }
