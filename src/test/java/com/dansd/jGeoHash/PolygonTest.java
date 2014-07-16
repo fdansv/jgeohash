@@ -14,26 +14,30 @@ import static org.junit.Assert.*;
 
 public class PolygonTest {
     JSONObject object;
+    Polygon polygon;
+
+    private boolean testJSON;
+
     @Before
     public void initPolygon(){
         object = new JSONObject(file2String("london.json"));
+        polygon = new Polygon(object);
     }
 
     @Test
     public void testJSON(){
-        Polygon polygon = new Polygon(object);
-        //polygon.printGeoJSON();
+        if(testJSON) {
+            polygon.printGeoJSON();
+        }
     }
 
     @Test
     public void checkBoundingBox() throws Exception{
-        Polygon polygon = new Polygon(object);
         assert polygon.getNWCorner().getLongitude()<polygon.getSECorner().getLongitude();
     }
 
     @Test
     public void checkContains(){
-        Polygon polygon = new Polygon(object);
         assert polygon.isPointInside(new GeoPoint(51.497, -0.109));
         assert !polygon.isPointInside(new GeoPoint(51.74560546875, -0.5712890625));
         assert !polygon.isPointInside(new GeoPoint(20, 5));
